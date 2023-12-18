@@ -1,0 +1,35 @@
+.card-frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+  
+  .image-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-card .text-center {
+    padding: 15px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .filter-container {
+    padding: 0.5rem;
+}

@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(135deg, #93a0a7, #178fd0);
+}
+
+.login-form {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95); 
+    color: #0b0b0b; 
+}
+.form-label {
+    color: #333; 
+}
+.login-form::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1608497583230-2931cea10cc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHx1dHRhcmFraGFuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.submit-button-row {
+    gap: 1rem;
+}

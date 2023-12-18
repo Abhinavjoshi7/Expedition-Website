@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://images.unsplash.com/photo-1612438214708-f428a707dd4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXR0YXJha2hhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60') no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+    height: 50vh;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    max-width: 80%;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .jumbotron h1,
+    .jumbotron p {
+        max-width: 90%;
+    }
+}
+
+.jumbotron .btn {
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jumbotron .btn:hover {
+    background-color: #43A047;
+}
+
+.info {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
